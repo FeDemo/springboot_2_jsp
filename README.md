@@ -33,7 +33,7 @@ spring.mvc.view.suffix=.jsp
 ```
 
 ## index.jsp   
->jsp页面
+>jsp页面代码
 
 ```
 <%@ page language="java" pageEncoding="UTF-8"%>
@@ -75,20 +75,3 @@ public class index {
 >页面 
 
 ![](https://raw.githubusercontent.com/FeDemo/springboot_2_jsp/master/imgs/1.png)
-
->页面代码  
-
-```
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-    <base href="http://127.0.0.1:8080/">
-    <title></title>
-</head>
-
-<body>
-    hello fedemo <br>
-</body>
-</html>
-
-```
