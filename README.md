@@ -75,3 +75,17 @@ public class index {
 >页面 
 
 ![](https://raw.githubusercontent.com/FeDemo/springboot_2_jsp/master/imgs/1.png)
+
+## 在@Controller中返回json
+>@ResponseBody声明返回的是json对象
+```
+    @RequestMapping("/json")
+    @ResponseBody
+    public Map json(){
+        Map m=new HashMap();
+        m.put("index1","str1");
+        m.put("index2","str2");
+        m.put("index3","str3");
+        return m;
+    }
+```
