@@ -1,7 +1,7 @@
 # springboot_2_jsp
 springboot对jsp的支持 demo
 
->pom.xml  
+### pom.xml  
 >添加maven配置   
 
 ```
@@ -23,7 +23,7 @@ springboot对jsp的支持 demo
         <artifactId>jstl</artifactId>
     </dependency>
 ```
-
+### application.properties
 >src/main/resources/application.properties  
 >配置视图  
 
@@ -32,7 +32,7 @@ spring.mvc.view.prefix=/jsp/
 spring.mvc.view.suffix=.jsp
 ```
 
->index.jsp   
+### index.jsp   
 >jsp页面
 
 ```
@@ -55,7 +55,7 @@ spring.mvc.view.suffix=.jsp
 
 ```
 
->@Controller  
+### @Controller  
 >控制层代码
 
 ```
@@ -71,7 +71,8 @@ public class index {
 }
 ```
 
->效果 
+### 效果 
+>页面 
 
 ![](https://raw.githubusercontent.com/FeDemo/springboot_2_jsp/master/imgs/1.png)
 
