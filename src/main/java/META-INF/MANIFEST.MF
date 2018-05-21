@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Class-Path: spring-boot-starter-json-2.0.2.RELEASE.jar spring-boot-2.0
+ .2.RELEASE.jar spring-boot-autoconfigure-2.0.2.RELEASE.jar log4j-to-s
+ lf4j-2.10.0.jar jackson-databind-2.9.5.jar ecj-3.12.3.jar spring-boot
+ -starter-web-2.0.2.RELEASE.jar jstl-1.2.jar spring-expression-5.0.6.R
+ ELEASE.jar jul-to-slf4j-1.7.25.jar jackson-annotations-2.9.0.jar spri
+ ng-boot-starter-tomcat-2.0.2.RELEASE.jar spring-aop-5.0.6.RELEASE.jar
+  log4j-api-2.10.0.jar spring-webmvc-5.0.6.RELEASE.jar javax.servlet-a
+ pi-3.1.0.jar snakeyaml-1.19.jar jackson-core-2.9.5.jar logback-classi
+ c-1.2.3.jar spring-context-5.0.6.RELEASE.jar spring-boot-starter-2.0.
+ 2.RELEASE.jar slf4j-api-1.7.25.jar jackson-datatype-jdk8-2.9.5.jar jb
+ oss-logging-3.3.2.Final.jar tomcat-embed-core-8.5.31.jar tomcat-embed
+ -el-8.5.31.jar tomcat-embed-jasper-8.5.31.jar classmate-1.3.4.jar spr
+ ing-core-5.0.6.RELEASE.jar logback-core-1.2.3.jar tomcat-annotations-
+ api-8.5.31.jar spring-jcl-5.0.6.RELEASE.jar tomcat-embed-websocket-8.
+ 5.31.jar jackson-module-parameter-names-2.9.5.jar spring-beans-5.0.6.
+ RELEASE.jar spring-web-5.0.6.RELEASE.jar javax.annotation-api-1.3.2.j
+ ar hibernate-validator-6.0.9.Final.jar spring-boot-starter-logging-2.
+ 0.2.RELEASE.jar validation-api-2.0.1.Final.jar jackson-datatype-jsr31
+ 0-2.9.5.jar
+Main-Class: com.example.demo.DemoApplication
+
