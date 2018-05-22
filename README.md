@@ -4,7 +4,7 @@ springboot对jsp的支持 demo
 ## pom.xml  
 >添加maven配置   
 
-```
+```xml
     <!--spring boot tomcat jsp 引入-->
     <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
@@ -27,7 +27,7 @@ springboot对jsp的支持 demo
 >src/main/resources/application.properties  
 >配置视图  
 
-```
+```properties
 spring.mvc.view.prefix=/jsp/
 spring.mvc.view.suffix=.jsp
 ```
@@ -35,7 +35,7 @@ spring.mvc.view.suffix=.jsp
 ## index.jsp   
 >jsp页面代码
 
-```
+```jsp
 <%@ page language="java" pageEncoding="UTF-8"%>
 <%
     String path = request.getContextPath();
@@ -58,7 +58,7 @@ spring.mvc.view.suffix=.jsp
 ## @Controller  
 >控制层代码
 
-```
+```java
 @Controller
 public class index {
 
@@ -78,7 +78,9 @@ public class index {
 
 ## 在@Controller中返回json
 >@ResponseBody声明返回的是json对象
-```
+```java
+@Controller
+public class json {
     @RequestMapping("/json")
     @ResponseBody
     public Map json(){
@@ -88,4 +90,5 @@ public class index {
         m.put("index3","str3");
         return m;
     }
+}
 ```
